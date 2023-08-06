@@ -1,6 +1,6 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 user_plaintext = input("Enter your plaintext: ")
-key = int(input("Enter a key: "))
+key = 5
 
 encrypted_text = ""
 for char in user_plaintext:
@@ -14,6 +14,13 @@ for char in user_plaintext:
         encrypted_text += char
 
 print("The encrypted sentence is: " + encrypted_text)
+
+
+
+
+
+
+
 
 
     
